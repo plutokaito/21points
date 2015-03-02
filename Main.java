@@ -14,17 +14,17 @@ public class Games {
 			Scanner in = new Scanner(System.in);
 			
 	    
-			//ÓÎÏ·¿ªÊ¼£¬¿ªÊ¼·¢ÅÆ   
+			//æ¸¸æˆå¼€å§‹ï¼Œå¼€å§‹å‘ç‰Œ   
 			gamepro.gameStart();
 	    
-	    //ÓÎÏ·½øĞĞÊ±
+	    //æ¸¸æˆè¿›è¡Œæ—¶
 	    gamepro.gaming();	
 	    
-	    //ÓÎÏ·½áÊø
+	    //æ¸¸æˆç»“æŸ
 	    gamepro.gameOver();
 	    
-	    //ÊäÈë
-	    System.out.println("ÊÇ·ñ¼ÌĞøÓÎÏ·(Y/N)£º ");
+	    //è¾“å…¥
+	    System.out.println("æ˜¯å¦ç»§ç»­æ¸¸æˆ(Y/N)ï¼š ");
 	    inChar = in.next();
 		}while(inChar.equals("Y"));
 	}
